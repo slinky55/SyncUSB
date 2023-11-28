@@ -1,3 +1,5 @@
+#include "syncusb.h"
+
 int main() {
-  return 0;
+  return susb::start();
 }
